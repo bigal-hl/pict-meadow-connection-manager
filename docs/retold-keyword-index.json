@@ -1,7 +1,7 @@
 {
-	"Generated": "2026-05-22T05:42:52.017Z",
+	"Generated": "2026-05-23T01:51:03.212Z",
 	"Mode": "module",
-	"DocumentCount": 0,
+	"DocumentCount": 2,
 	"LunrIndex": {
 		"version": "2.3.9",
 		"fields": [
@@ -10,11 +10,5891 @@
 			"group",
 			"body"
 		],
-		"fieldVectors": [],
-		"invertedIndex": [],
+		"fieldVectors": [
+			[
+				"title/_cover.md",
+				[
+					0,
+					4.217,
+					1,
+					4.849,
+					2,
+					4.849,
+					3,
+					4.849
+				]
+			],
+			[
+				"module/_cover.md",
+				[
+					0,
+					1.873,
+					1,
+					2.154,
+					2,
+					2.154,
+					3,
+					2.154
+				]
+			],
+			[
+				"group/_cover.md",
+				[]
+			],
+			[
+				"body/_cover.md",
+				[
+					0,
+					0.737,
+					1,
+					0.848,
+					2,
+					0.871,
+					3,
+					0.805,
+					4,
+					1.127,
+					5,
+					1.127,
+					6,
+					0.341,
+					7,
+					0.25,
+					8,
+					1.127,
+					9,
+					0.296,
+					10,
+					0.217,
+					11,
+					1.127,
+					12,
+					0.296,
+					13,
+					0.341,
+					14,
+					0.296,
+					15,
+					0.296,
+					16,
+					0.296,
+					17,
+					0.296,
+					18,
+					0.296,
+					19,
+					0.296,
+					20,
+					0.296,
+					21,
+					0.296,
+					22,
+					0.296,
+					23,
+					0.296,
+					24,
+					0.296,
+					25,
+					0.296,
+					26,
+					0.296,
+					27,
+					1.127,
+					28,
+					0.296,
+					29,
+					0.296,
+					30,
+					1.127,
+					31,
+					0.296
+				]
+			],
+			[
+				"title/examples/bookstore-connections/README.md",
+				[
+					1,
+					3.875,
+					2,
+					5.501,
+					3,
+					3.875,
+					7,
+					1.201,
+					10,
+					1.201,
+					32,
+					1.64
+				]
+			],
+			[
+				"module/examples/bookstore-connections/README.md",
+				[
+					0,
+					1.873,
+					1,
+					2.154,
+					2,
+					2.154,
+					3,
+					2.154
+				]
+			],
+			[
+				"group/examples/bookstore-connections/README.md",
+				[]
+			],
+			[
+				"body/examples/bookstore-connections/README.md",
+				[
+					0,
+					0.656,
+					1,
+					0.563,
+					2,
+					0.87,
+					3,
+					0.846,
+					6,
+					0.374,
+					7,
+					0.291,
+					9,
+					0.381,
+					10,
+					0.248,
+					12,
+					0.132,
+					13,
+					0.367,
+					14,
+					0.353,
+					15,
+					0.265,
+					16,
+					0.31,
+					17,
+					0.319,
+					18,
+					0.36,
+					19,
+					0.238,
+					20,
+					0.333,
+					21,
+					0.198,
+					22,
+					0.285,
+					23,
+					0.132,
+					24,
+					0.319,
+					25,
+					0.198,
+					26,
+					0.132,
+					28,
+					0.285,
+					29,
+					0.285,
+					31,
+					0.132,
+					32,
+					0.285,
+					33,
+					1.18,
+					34,
+					1.242,
+					35,
+					1.009,
+					36,
+					1.352,
+					37,
+					1.33,
+					38,
+					0.754,
+					39,
+					0.906,
+					40,
+					1.342,
+					41,
+					1.318,
+					42,
+					0.906,
+					43,
+					1.303,
+					44,
+					1.214,
+					45,
+					1.266,
+					46,
+					0.754,
+					47,
+					1.009,
+					48,
+					1.082,
+					49,
+					1.214,
+					50,
+					0.754,
+					51,
+					1.082,
+					52,
+					1.18,
+					53,
+					1.242,
+					54,
+					1.18,
+					55,
+					1.082,
+					56,
+					0.754,
+					57,
+					0.501,
+					58,
+					0.501,
+					59,
+					1.082,
+					60,
+					1.352,
+					61,
+					1.214,
+					62,
+					1.18,
+					63,
+					1.082,
+					64,
+					0.906,
+					65,
+					0.906,
+					66,
+					1.303,
+					67,
+					0.906,
+					68,
+					0.501,
+					69,
+					0.906,
+					70,
+					1.18,
+					71,
+					1.082,
+					72,
+					1.009,
+					73,
+					0.501,
+					74,
+					0.906,
+					75,
+					1.33,
+					76,
+					0.906,
+					77,
+					0.501,
+					78,
+					0.754,
+					79,
+					1.009,
+					80,
+					1.009,
+					81,
+					0.754,
+					82,
+					1.18,
+					83,
+					0.906,
+					84,
+					0.754,
+					85,
+					0.501,
+					86,
+					0.754,
+					87,
+					1.009,
+					88,
+					0.501,
+					89,
+					0.501,
+					90,
+					0.501,
+					91,
+					0.754,
+					92,
+					1.009,
+					93,
+					1.18,
+					94,
+					0.754,
+					95,
+					0.754,
+					96,
+					1.383,
+					97,
+					0.501,
+					98,
+					0.501,
+					99,
+					1.18,
+					100,
+					1.18,
+					101,
+					0.906,
+					102,
+					1.242,
+					103,
+					0.754,
+					104,
+					0.754,
+					105,
+					1.082,
+					106,
+					0.501,
+					107,
+					0.906,
+					108,
+					0.754,
+					109,
+					1.137,
+					110,
+					1.009,
+					111,
+					0.754,
+					112,
+					0.501,
+					113,
+					1.342,
+					114,
+					1.242,
+					115,
+					1.266,
+					116,
+					0.754,
+					117,
+					0.754,
+					118,
+					1.009,
+					119,
+					0.754,
+					120,
+					1.009,
+					121,
+					1.214,
+					122,
+					0.906,
+					123,
+					0.501,
+					124,
+					1.082,
+					125,
+					1.082,
+					126,
+					1.242,
+					127,
+					0.754,
+					128,
+					1.137,
+					129,
+					1.009,
+					130,
+					1.286,
+					131,
+					1.082,
+					132,
+					0.906,
+					133,
+					0.754,
+					134,
+					1.137,
+					135,
+					0.906,
+					136,
+					1.009,
+					137,
+					0.754,
+					138,
+					1.18,
+					139,
+					0.754,
+					140,
+					1.009,
+					141,
+					0.501,
+					142,
+					0.754,
+					143,
+					0.906,
+					144,
+					0.501,
+					145,
+					0.754,
+					146,
+					0.754,
+					147,
+					0.754,
+					148,
+					0.501,
+					149,
+					0.906,
+					150,
+					0.501,
+					151,
+					0.501,
+					152,
+					1.009,
+					153,
+					0.754,
+					154,
+					0.754,
+					155,
+					0.754,
+					156,
+					0.906,
+					157,
+					1.009,
+					158,
+					0.501,
+					159,
+					0.501,
+					160,
+					0.501,
+					161,
+					1.009,
+					162,
+					0.754,
+					163,
+					0.754,
+					164,
+					0.754,
+					165,
+					0.501,
+					166,
+					0.754,
+					167,
+					1.009,
+					168,
+					0.754,
+					169,
+					0.501,
+					170,
+					0.501,
+					171,
+					0.501,
+					172,
+					0.501,
+					173,
+					1.009,
+					174,
+					0.501,
+					175,
+					0.501,
+					176,
+					0.754,
+					177,
+					1.137,
+					178,
+					0.501,
+					179,
+					1.009,
+					180,
+					0.906,
+					181,
+					0.906,
+					182,
+					0.501,
+					183,
+					0.754,
+					184,
+					0.501,
+					185,
+					0.501,
+					186,
+					0.501,
+					187,
+					0.754,
+					188,
+					1.009,
+					189,
+					0.754,
+					190,
+					0.754,
+					191,
+					0.754,
+					192,
+					1.009,
+					193,
+					1.242,
+					194,
+					0.501,
+					195,
+					0.501,
+					196,
+					0.906,
+					197,
+					0.501,
+					198,
+					1.18,
+					199,
+					0.501,
+					200,
+					0.754,
+					201,
+					0.501,
+					202,
+					0.501,
+					203,
+					0.501,
+					204,
+					0.906,
+					205,
+					0.501,
+					206,
+					0.501,
+					207,
+					0.501,
+					208,
+					1.009,
+					209,
+					1.082,
+					210,
+					0.754,
+					211,
+					0.501,
+					212,
+					1.009,
+					213,
+					0.501,
+					214,
+					0.906,
+					215,
+					0.754,
+					216,
+					0.754,
+					217,
+					0.754,
+					218,
+					0.754,
+					219,
+					0.906,
+					220,
+					0.754,
+					221,
+					0.906,
+					222,
+					0.501,
+					223,
+					0.501,
+					224,
+					0.501,
+					225,
+					0.754,
+					226,
+					0.501,
+					227,
+					0.754,
+					228,
+					0.754,
+					229,
+					0.754,
+					230,
+					0.501,
+					231,
+					0.501,
+					232,
+					0.501,
+					233,
+					0.501,
+					234,
+					0.754,
+					235,
+					0.501,
+					236,
+					0.754,
+					237,
+					0.754,
+					238,
+					0.754,
+					239,
+					0.501,
+					240,
+					0.501,
+					241,
+					0.501,
+					242,
+					0.501,
+					243,
+					0.754,
+					244,
+					0.754,
+					245,
+					0.754,
+					246,
+					0.501,
+					247,
+					0.501,
+					248,
+					0.501,
+					249,
+					0.906,
+					250,
+					0.501,
+					251,
+					0.501,
+					252,
+					0.754,
+					253,
+					0.906,
+					254,
+					0.501,
+					255,
+					0.754,
+					256,
+					0.501,
+					257,
+					0.501,
+					258,
+					0.754,
+					259,
+					0.501,
+					260,
+					0.906,
+					261,
+					0.501,
+					262,
+					0.501,
+					263,
+					0.501,
+					264,
+					0.501,
+					265,
+					0.754,
+					266,
+					0.501,
+					267,
+					0.501,
+					268,
+					0.754,
+					269,
+					0.501,
+					270,
+					0.754,
+					271,
+					0.501,
+					272,
+					0.501,
+					273,
+					0.906,
+					274,
+					0.501,
+					275,
+					0.501,
+					276,
+					0.501,
+					277,
+					0.501,
+					278,
+					0.501,
+					279,
+					0.754,
+					280,
+					0.501,
+					281,
+					0.501,
+					282,
+					0.501,
+					283,
+					0.501,
+					284,
+					0.906,
+					285,
+					0.501,
+					286,
+					0.501,
+					287,
+					0.501,
+					288,
+					0.754,
+					289,
+					0.501,
+					290,
+					0.501,
+					291,
+					0.501,
+					292,
+					0.906,
+					293,
+					0.501,
+					294,
+					0.501,
+					295,
+					0.754,
+					296,
+					0.501,
+					297,
+					0.501,
+					298,
+					0.501,
+					299,
+					0.754,
+					300,
+					0.501,
+					301,
+					0.501,
+					302,
+					0.501,
+					303,
+					0.754,
+					304,
+					0.501,
+					305,
+					0.501,
+					306,
+					0.754,
+					307,
+					0.501,
+					308,
+					0.501,
+					309,
+					0.754,
+					310,
+					0.501,
+					311,
+					0.754,
+					312,
+					0.501,
+					313,
+					0.501,
+					314,
+					0.754,
+					315,
+					0.501,
+					316,
+					0.501,
+					317,
+					0.501,
+					318,
+					0.501,
+					319,
+					0.906,
+					320,
+					0.501,
+					321,
+					0.906,
+					322,
+					0.501,
+					323,
+					0.754,
+					324,
+					0.906,
+					325,
+					0.501,
+					326,
+					0.501,
+					327,
+					0.754,
+					328,
+					0.754,
+					329,
+					0.501,
+					330,
+					0.754,
+					331,
+					0.906,
+					332,
+					0.754,
+					333,
+					0.754,
+					334,
+					0.501,
+					335,
+					0.501,
+					336,
+					0.501,
+					337,
+					0.501,
+					338,
+					0.501,
+					339,
+					0.501,
+					340,
+					0.501,
+					341,
+					0.501,
+					342,
+					0.754,
+					343,
+					0.501,
+					344,
+					0.501,
+					345,
+					0.501,
+					346,
+					0.501,
+					347,
+					0.501,
+					348,
+					0.501,
+					349,
+					0.501,
+					350,
+					0.501,
+					351,
+					0.501,
+					352,
+					0.501,
+					353,
+					0.501,
+					354,
+					0.501,
+					355,
+					0.501,
+					356,
+					0.754,
+					357,
+					0.501,
+					358,
+					0.501,
+					359,
+					0.501,
+					360,
+					0.501,
+					361,
+					0.501,
+					362,
+					0.501,
+					363,
+					0.501,
+					364,
+					0.501,
+					365,
+					0.501,
+					366,
+					0.501,
+					367,
+					0.501,
+					368,
+					0.501,
+					369,
+					0.501,
+					370,
+					0.754,
+					371,
+					0.501,
+					372,
+					0.501,
+					373,
+					0.754,
+					374,
+					0.501,
+					375,
+					0.754,
+					376,
+					0.501,
+					377,
+					0.754,
+					378,
+					0.501,
+					379,
+					0.754,
+					380,
+					0.501,
+					381,
+					0.501,
+					382,
+					0.754,
+					383,
+					0.501,
+					384,
+					0.501,
+					385,
+					0.754,
+					386,
+					0.501,
+					387,
+					0.501,
+					388,
+					0.501,
+					389,
+					0.501,
+					390,
+					0.501,
+					391,
+					0.501,
+					392,
+					0.501,
+					393,
+					0.501,
+					394,
+					0.501,
+					395,
+					0.501,
+					396,
+					0.501,
+					397,
+					0.501,
+					398,
+					0.501,
+					399,
+					0.501,
+					400,
+					0.501,
+					401,
+					0.501,
+					402,
+					0.501,
+					403,
+					0.501,
+					404,
+					0.501,
+					405,
+					0.501
+				]
+			]
+		],
+		"invertedIndex": [
+			[
+				"",
+				{
+					"_index": 7,
+					"title": {
+						"examples/bookstore-connections/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"1",
+				{
+					"_index": 194,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"2",
+				{
+					"_index": 224,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"23306",
+				{
+					"_index": 293,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"25432",
+				{
+					"_index": 294,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"3",
+				{
+					"_index": 242,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"4",
+				{
+					"_index": 271,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"5",
+				{
+					"_index": 287,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"6",
+				{
+					"_index": 298,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"7",
+				{
+					"_index": 318,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"8",
+				{
+					"_index": 341,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"9",
+				{
+					"_index": 355,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"900px",
+				{
+					"_index": 333,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"abov",
+				{
+					"_index": 338,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"accept",
+				{
+					"_index": 205,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"activ",
+				{
+					"_index": 180,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"actual",
+				{
+					"_index": 296,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"add",
+				{
+					"_index": 99,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"address",
+				{
+					"_index": 183,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"adopt",
+				{
+					"_index": 68,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"against",
+				{
+					"_index": 374,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"aggreg",
+				{
+					"_index": 405,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"align",
+				{
+					"_index": 295,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"aliv",
+				{
+					"_index": 367,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"alongsid",
+				{
+					"_index": 317,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"alreadi",
+				{
+					"_index": 265,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"answer",
+				{
+					"_index": 206,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"anyth",
+				{
+					"_index": 400,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"api",
+				{
+					"_index": 320,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"app",
+				{
+					"_index": 59,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"appdata",
+				{
+					"_index": 172,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"applic",
+				{
+					"_index": 33,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"array",
+				{
+					"_index": 109,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"avoid",
+				{
+					"_index": 267,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"awar",
+				{
+					"_index": 112,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"back",
+				{
+					"_index": 214,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"badg",
+				{
+					"_index": 101,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"bar",
+				{
+					"_index": 350,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"becom",
+				{
+					"_index": 258,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"below",
+				{
+					"_index": 332,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"bespok",
+				{
+					"_index": 394,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"between",
+				{
+					"_index": 396,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"bind",
+				{
+					"_index": 182,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"blob",
+				{
+					"_index": 95,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"block",
+				{
+					"_index": 49,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"bodi",
+				{
+					"_index": 357,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"bookstor",
+				{
+					"_index": 32,
+					"title": {
+						"examples/bookstore-connections/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"boot",
+				{
+					"_index": 304,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"bootstrap",
+				{
+					"_index": 343,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"both",
+				{
+					"_index": 181,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"bottom",
+				{
+					"_index": 144,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"boundari",
+				{
+					"_index": 395,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"brand",
+				{
+					"_index": 79,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"breakpoint",
+				{
+					"_index": 336,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"bring",
+				{
+					"_index": 245,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"browser",
+				{
+					"_index": 4,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"built",
+				{
+					"_index": 184,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"bundl",
+				{
+					"_index": 65,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"button",
+				{
+					"_index": 82,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"call",
+				{
+					"_index": 152,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"cancel",
+				{
+					"_index": 103,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"canon",
+				{
+					"_index": 21,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"capabl",
+				{
+					"_index": 89,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"carri",
+				{
+					"_index": 238,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"center",
+				{
+					"_index": 42,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"centralis",
+				{
+					"_index": 399,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"chang",
+				{
+					"_index": 306,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"children",
+				{
+					"_index": 365,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"chrome",
+				{
+					"_index": 319,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"circuit",
+				{
+					"_index": 275,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"click",
+				{
+					"_index": 177,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"clickabl",
+				{
+					"_index": 97,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"code",
+				{
+					"_index": 279,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"coexist",
+				{
+					"_index": 262,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"collapse/expand",
+				{
+					"_index": 368,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"collid",
+				{
+					"_index": 264,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"come",
+				{
+					"_index": 19,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"compos",
+				{
+					"_index": 243,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"composit",
+				{
+					"_index": 104,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"config",
+				{
+					"_index": 84,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"configur",
+				{
+					"_index": 28,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"connect",
+				{
+					"_index": 2,
+					"title": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					},
+					"module": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"connection'",
+				{
+					"_index": 386,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"contain",
+				{
+					"_index": 291,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"contract",
+				{
+					"_index": 204,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"control",
+				{
+					"_index": 47,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"coupl",
+				{
+					"_index": 302,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"cover",
+				{
+					"_index": 307,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"cross",
+				{
+					"_index": 117,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"crud",
+				{
+					"_index": 91,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"css",
+				{
+					"_index": 228,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"custom",
+				{
+					"_index": 78,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"cycl",
+				{
+					"_index": 369,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"data",
+				{
+					"_index": 169,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"databas",
+				{
+					"_index": 11,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"decid",
+				{
+					"_index": 316,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"default",
+				{
+					"_index": 217,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"definit",
+				{
+					"_index": 186,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"deleg",
+				{
+					"_index": 12,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"delet",
+				{
+					"_index": 46,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"demo",
+				{
+					"_index": 61,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"demonstr",
+				{
+					"_index": 88,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"deploy",
+				{
+					"_index": 213,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"destin",
+				{
+					"_index": 229,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"detail",
+				{
+					"_index": 43,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"differ",
+				{
+					"_index": 256,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"displac",
+				{
+					"_index": 339,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"div",
+				{
+					"_index": 161,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"docker",
+				{
+					"_index": 370,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"document",
+				{
+					"_index": 26,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"dom",
+				{
+					"_index": 74,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"don't",
+				{
+					"_index": 300,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"draft",
+				{
+					"_index": 179,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"drag",
+				{
+					"_index": 136,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"drawer",
+				{
+					"_index": 331,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"drive",
+				{
+					"_index": 315,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"driven",
+				{
+					"_index": 48,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"drop",
+				{
+					"_index": 232,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"each",
+				{
+					"_index": 174,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"edg",
+				{
+					"_index": 321,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"edit",
+				{
+					"_index": 385,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"editor",
+				{
+					"_index": 44,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"editor'",
+				{
+					"_index": 277,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"empti",
+				{
+					"_index": 359,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"end",
+				{
+					"_index": 373,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"endpoint",
+				{
+					"_index": 132,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"ensur",
+				{
+					"_index": 310,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"entir",
+				{
+					"_index": 134,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"entri",
+				{
+					"_index": 387,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"etc",
+				{
+					"_index": 223,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"everyth",
+				{
+					"_index": 81,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"exactli",
+				{
+					"_index": 289,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"exampl",
+				{
+					"_index": 67,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"exercis",
+				{
+					"_index": 285,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"exist",
+				{
+					"_index": 260,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"expand",
+				{
+					"_index": 362,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"expect",
+				{
+					"_index": 390,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"export",
+				{
+					"_index": 244,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"expos",
+				{
+					"_index": 188,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"extens",
+				{
+					"_index": 314,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"favicon",
+				{
+					"_index": 166,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"featur",
+				{
+					"_index": 193,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"fetch",
+				{
+					"_index": 107,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"field",
+				{
+					"_index": 17,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"file",
+				{
+					"_index": 69,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"find",
+				{
+					"_index": 347,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"fire",
+				{
+					"_index": 305,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"first",
+				{
+					"_index": 281,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"fixtur",
+				{
+					"_index": 53,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"flip",
+				{
+					"_index": 330,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"float",
+				{
+					"_index": 337,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"forc",
+				{
+					"_index": 278,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"form",
+				{
+					"_index": 13,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"form'",
+				{
+					"_index": 276,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"format",
+				{
+					"_index": 389,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"four",
+				{
+					"_index": 153,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"fresh",
+				{
+					"_index": 200,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"full",
+				{
+					"_index": 25,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"gear",
+				{
+					"_index": 129,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"github",
+				{
+					"_index": 30,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"goe",
+				{
+					"_index": 86,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"hand",
+				{
+					"_index": 39,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"handl",
+				{
+					"_index": 234,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"hang",
+				{
+					"_index": 171,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"hardcod",
+				{
+					"_index": 108,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"hash",
+				{
+					"_index": 345,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"here",
+				{
+					"_index": 187,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"hidden",
+				{
+					"_index": 123,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"hide",
+				{
+					"_index": 266,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"highlight",
+				{
+					"_index": 235,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"hit",
+				{
+					"_index": 297,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"hook",
+				{
+					"_index": 309,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"host",
+				{
+					"_index": 105,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"host'",
+				{
+					"_index": 398,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"hous",
+				{
+					"_index": 158,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"hydrat",
+				{
+					"_index": 111,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"icon",
+				{
+					"_index": 165,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"id",
+				{
+					"_index": 76,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"idempot",
+				{
+					"_index": 366,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"independ",
+				{
+					"_index": 203,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"index",
+				{
+					"_index": 94,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"indic",
+				{
+					"_index": 401,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"inject",
+				{
+					"_index": 80,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"inlin",
+				{
+					"_index": 163,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"inner",
+				{
+					"_index": 328,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"input",
+				{
+					"_index": 239,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"input'",
+				{
+					"_index": 257,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"insid",
+				{
+					"_index": 226,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"instanc",
+				{
+					"_index": 201,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"instantli",
+				{
+					"_index": 380,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"instead",
+				{
+					"_index": 106,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"integr",
+				{
+					"_index": 230,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"intent",
+				{
+					"_index": 361,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"intention",
+				{
+					"_index": 282,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"intercept",
+				{
+					"_index": 116,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"invis",
+				{
+					"_index": 340,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"itself",
+				{
+					"_index": 269,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"json",
+				{
+					"_index": 83,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"json'",
+				{
+					"_index": 176,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"keep",
+				{
+					"_index": 351,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"key",
+				{
+					"_index": 142,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"knob",
+				{
+					"_index": 247,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"know",
+				{
+					"_index": 301,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"last",
+				{
+					"_index": 342,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"layout",
+				{
+					"_index": 121,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"left",
+				{
+					"_index": 38,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"librari",
+				{
+					"_index": 87,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"light",
+				{
+					"_index": 207,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"liner",
+				{
+					"_index": 352,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"list",
+				{
+					"_index": 40,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"list/detail",
+				{
+					"_index": 8,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"live",
+				{
+					"_index": 375,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"load",
+				{
+					"_index": 290,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"look",
+				{
+					"_index": 344,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"main",
+				{
+					"_index": 322,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"make",
+				{
+					"_index": 252,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"manag",
+				{
+					"_index": 3,
+					"title": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					},
+					"module": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"manager'",
+				{
+					"_index": 313,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"manifest",
+				{
+					"_index": 354,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"match",
+				{
+					"_index": 288,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"matter",
+				{
+					"_index": 311,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"meadow",
+				{
+					"_index": 1,
+					"title": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					},
+					"module": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"mean",
+				{
+					"_index": 202,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"memori",
+				{
+					"_index": 56,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"method",
+				{
+					"_index": 303,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"mirror",
+				{
+					"_index": 248,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"modal",
+				{
+					"_index": 120,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"model",
+				{
+					"_index": 170,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"modetoggl",
+				{
+					"_index": 383,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"modul",
+				{
+					"_index": 23,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"moment",
+				{
+					"_index": 254,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"monkey",
+				{
+					"_index": 145,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"mount",
+				{
+					"_index": 130,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"multipl",
+				{
+					"_index": 261,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"mysql",
+				{
+					"_index": 54,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"name",
+				{
+					"_index": 10,
+					"title": {
+						"examples/bookstore-connections/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"namespac",
+				{
+					"_index": 77,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"nav",
+				{
+					"_index": 155,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"need",
+				{
+					"_index": 196,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"negoti",
+				{
+					"_index": 397,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"network",
+				{
+					"_index": 211,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"new",
+				{
+					"_index": 379,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"noth",
+				{
+					"_index": 402,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"notic",
+				{
+					"_index": 325,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"on",
+				{
+					"_index": 20,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"open",
+				{
+					"_index": 127,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"option",
+				{
+					"_index": 133,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"orat",
+				{
+					"_index": 215,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"order",
+				{
+					"_index": 348,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"over",
+				{
+					"_index": 241,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"overlay",
+				{
+					"_index": 124,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"overrid",
+				{
+					"_index": 218,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"overview",
+				{
+					"_index": 404,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"own",
+				{
+					"_index": 92,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"page",
+				{
+					"_index": 221,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"palett",
+				{
+					"_index": 162,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"panel",
+				{
+					"_index": 96,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"panel'",
+				{
+					"_index": 356,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"patch",
+				{
+					"_index": 146,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"path",
+				{
+					"_index": 147,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"payload",
+				{
+					"_index": 85,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"per",
+				{
+					"_index": 16,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"persist",
+				{
+					"_index": 135,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"pick",
+				{
+					"_index": 255,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"picker",
+				{
+					"_index": 382,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"pict",
+				{
+					"_index": 0,
+					"title": {
+						"_cover.md": {}
+					},
+					"module": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"place",
+				{
+					"_index": 272,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"plu",
+				{
+					"_index": 149,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"point",
+				{
+					"_index": 209,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"popul",
+				{
+					"_index": 270,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"port",
+				{
+					"_index": 292,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"post",
+				{
+					"_index": 191,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"postgresql",
+				{
+					"_index": 55,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"power",
+				{
+					"_index": 185,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"prefix",
+				{
+					"_index": 259,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"preload",
+				{
+					"_index": 58,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"present",
+				{
+					"_index": 268,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"previous",
+				{
+					"_index": 364,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"product",
+				{
+					"_index": 52,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"provid",
+				{
+					"_index": 6,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"provider'",
+				{
+					"_index": 173,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"pull",
+				{
+					"_index": 175,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"pure",
+				{
+					"_index": 122,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"re",
+				{
+					"_index": 114,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"read",
+				{
+					"_index": 24,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"real",
+				{
+					"_index": 212,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"redraw",
+				{
+					"_index": 148,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"refer",
+				{
+					"_index": 29,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"reflect",
+				{
+					"_index": 388,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"refresh",
+				{
+					"_index": 115,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"regener",
+				{
+					"_index": 353,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"regist",
+				{
+					"_index": 70,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"registr",
+				{
+					"_index": 219,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"relat",
+				{
+					"_index": 403,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"reload",
+				{
+					"_index": 139,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"remov",
+				{
+					"_index": 308,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"render",
+				{
+					"_index": 14,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"reopen",
+				{
+					"_index": 329,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"request",
+				{
+					"_index": 210,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"resiz",
+				{
+					"_index": 137,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"respons",
+				{
+					"_index": 273,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"right",
+				{
+					"_index": 125,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"rout",
+				{
+					"_index": 216,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"row",
+				{
+					"_index": 98,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"run",
+				{
+					"_index": 62,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"s",
+				{
+					"_index": 131,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"safe",
+				{
+					"_index": 5,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"same",
+				{
+					"_index": 198,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"save",
+				{
+					"_index": 41,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"scaleselect",
+				{
+					"_index": 384,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"schema",
+				{
+					"_index": 18,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"scope",
+				{
+					"_index": 154,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"section",
+				{
+					"_index": 15,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"see",
+				{
+					"_index": 90,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"seed",
+				{
+					"_index": 110,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"select",
+				{
+					"_index": 93,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"self",
+				{
+					"_index": 227,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"serv",
+				{
+					"_index": 371,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"server",
+				{
+					"_index": 66,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"set",
+				{
+					"_index": 60,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"shape",
+				{
+					"_index": 284,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"share",
+				{
+					"_index": 72,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"shell",
+				{
+					"_index": 37,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"ship",
+				{
+					"_index": 225,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"short",
+				{
+					"_index": 274,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"show",
+				{
+					"_index": 156,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"side",
+				{
+					"_index": 126,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"sidebar",
+				{
+					"_index": 138,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"sidebar'",
+				{
+					"_index": 327,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"singl",
+				{
+					"_index": 63,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"singleton",
+				{
+					"_index": 195,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"size",
+				{
+					"_index": 326,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"skip",
+				{
+					"_index": 349,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"slide",
+				{
+					"_index": 381,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"slot",
+				{
+					"_index": 75,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"sourc",
+				{
+					"_index": 22,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"specif",
+				{
+					"_index": 73,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"sqlite",
+				{
+					"_index": 57,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"stack",
+				{
+					"_index": 35,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"standard",
+				{
+					"_index": 150,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"stanza",
+				{
+					"_index": 151,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"start",
+				{
+					"_index": 31,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"state",
+				{
+					"_index": 199,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"static",
+				{
+					"_index": 64,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"statu",
+				{
+					"_index": 100,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"stay",
+				{
+					"_index": 167,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"stick",
+				{
+					"_index": 141,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"stori",
+				{
+					"_index": 231,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"sub",
+				{
+					"_index": 160,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"subclass",
+				{
+					"_index": 393,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"suppli",
+				{
+					"_index": 50,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"surfac",
+				{
+					"_index": 190,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"svg",
+				{
+					"_index": 164,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"swap",
+				{
+					"_index": 253,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"switch",
+				{
+					"_index": 378,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"sync",
+				{
+					"_index": 118,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"take",
+				{
+					"_index": 240,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"takeaway",
+				{
+					"_index": 391,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"talk",
+				{
+					"_index": 197,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"target",
+				{
+					"_index": 222,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"tell",
+				{
+					"_index": 360,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"templat",
+				{
+					"_index": 358,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"test",
+				{
+					"_index": 45,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"that'",
+				{
+					"_index": 251,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"theme",
+				{
+					"_index": 36,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"thin",
+				{
+					"_index": 189,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"thing",
+				{
+					"_index": 324,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"those",
+				{
+					"_index": 233,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"three",
+				{
+					"_index": 51,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"time",
+				{
+					"_index": 220,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"titl",
+				{
+					"_index": 377,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"toggl",
+				{
+					"_index": 159,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"token",
+				{
+					"_index": 237,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"top",
+				{
+					"_index": 143,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"topbar",
+				{
+					"_index": 113,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"topbar'",
+				{
+					"_index": 299,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"tri",
+				{
+					"_index": 376,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"trigger",
+				{
+					"_index": 312,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"truth",
+				{
+					"_index": 168,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"two",
+				{
+					"_index": 71,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"type",
+				{
+					"_index": 102,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"unchang",
+				{
+					"_index": 280,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"unsav",
+				{
+					"_index": 178,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"up",
+				{
+					"_index": 208,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"updat",
+				{
+					"_index": 192,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"us",
+				{
+					"_index": 283,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"usag",
+				{
+					"_index": 27,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"user",
+				{
+					"_index": 157,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"verbatim",
+				{
+					"_index": 286,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"via",
+				{
+					"_index": 128,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"view",
+				{
+					"_index": 9,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"view'",
+				{
+					"_index": 250,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"viewport",
+				{
+					"_index": 334,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"whole",
+				{
+					"_index": 246,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"width",
+				{
+					"_index": 140,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"wipe",
+				{
+					"_index": 363,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"wire",
+				{
+					"_index": 34,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"without",
+				{
+					"_index": 263,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"won't",
+				{
+					"_index": 346,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"work",
+				{
+					"_index": 372,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"workflow",
+				{
+					"_index": 236,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"workspac",
+				{
+					"_index": 323,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"wrap",
+				{
+					"_index": 119,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"write",
+				{
+					"_index": 249,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"your",
+				{
+					"_index": 392,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			],
+			[
+				"zero",
+				{
+					"_index": 335,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/bookstore-connections/README.md": {}
+					}
+				}
+			]
+		],
 		"pipeline": [
 			"stemmer"
 		]
 	},
-	"Documents": {}
+	"Documents": {
+		"_cover.md": {
+			"Title": "Pict-Meadow-Connection-Manager",
+			"Module": "pict-meadow-connection-manager",
+			"Group": "",
+			"DocPath": "_cover.md"
+		},
+		"examples/bookstore-connections/README.md": {
+			"Title": "Bookstore Connections — Named Meadow Connection Manager",
+			"Module": "pict-meadow-connection-manager",
+			"Group": "",
+			"DocPath": "examples/bookstore-connections/README.md"
+		}
+	}
 }

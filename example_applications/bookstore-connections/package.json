@@ -51,6 +51,12 @@
 		"tough-cookie": ">=4.1.3"
 	},
 	"retold": {
+		"ExampleApplication": {
+			"Stage": true,
+			"Title": "Bookstore Connections",
+			"Summary": "Manage connections to the meadow bookstore test databases (MySQL, PostgreSQL, SQLite).",
+			"Complexity": "Intermediate"
+		},
 		"brand": {
 			"Hash": "pict-meadow-connection-manager/bookstore-connections",
 			"Name": "Bookstore Connections",

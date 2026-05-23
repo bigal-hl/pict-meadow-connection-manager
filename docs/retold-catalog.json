@@ -1,5 +1,5 @@
 {
-	"Generated": "2026-05-22T05:42:51.897Z",
+	"Generated": "2026-05-23T01:51:03.071Z",
 	"Mode": "module",
 	"GitHubOrg": "stevenvelozo",
 	"DefaultBranch": "master",
@@ -9,12 +9,59 @@
 		"Group": "",
 		"Branch": "master",
 		"HasDocs": true,
-		"HasCover": false,
-		"Sidebar": [],
+		"HasCover": true,
+		"Sidebar": [
+			{
+				"Title": "Getting Started",
+				"Children": [
+					{
+						"Title": "Overview",
+						"Path": "README.md"
+					}
+				]
+			},
+			{
+				"Title": "Examples",
+				"Children": [
+					{
+						"Title": "Bookstore Connections",
+						"Path": "examples/bookstore-connections/README.md"
+					}
+				]
+			},
+			{
+				"Title": "Retold Ecosystem",
+				"Children": [
+					{
+						"Title": "pict-section-connection-form",
+						"Path": "https://stevenvelozo.github.io/pict-section-connection-form/README.md"
+					},
+					{
+						"Title": "meadow-connection-manager",
+						"Path": "https://stevenvelozo.github.io/meadow-connection-manager/README.md"
+					},
+					{
+						"Title": "pict-section-modal",
+						"Path": "https://stevenvelozo.github.io/pict-section-modal/README.md"
+					},
+					{
+						"Title": "pict-section-theme",
+						"Path": "https://stevenvelozo.github.io/pict-section-theme/README.md"
+					},
+					{
+						"Title": "Pict",
+						"Path": "https://stevenvelozo.github.io/pict/README.md"
+					}
+				]
+			}
+		],
 		"DocFiles": [
 			".nojekyll",
 			"_brand.json",
+			"_cover.md",
+			"_sidebar.md",
 			"_version.json",
+			"examples/bookstore-connections/README.md",
 			"index.html",
 			"retold-catalog.json",
 			"retold-keyword-index.json"
