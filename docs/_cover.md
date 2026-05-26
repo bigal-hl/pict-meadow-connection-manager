@@ -4,7 +4,7 @@
 
 - Read the full documentation for usage, configuration, and reference
 
-[GitHub](https://github.com/stevenvelozo/pict-meadow-connection-manager)
+[GitHub](https://github.com/fable-retold/pict-meadow-connection-manager)
 [Get Started](#pict-meadow-connection-manager)
 
 <!-- docuserve:examples:start -->
