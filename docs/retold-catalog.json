@@ -1,5 +1,5 @@
 {
-	"Generated": "2026-05-26T21:12:50.288Z",
+	"Generated": "2026-05-31T01:22:57.974Z",
 	"Mode": "module",
 	"GitHubOrg": "fable-retold",
 	"DefaultBranch": "master",
@@ -17,6 +17,14 @@
 					{
 						"Title": "Overview",
 						"Path": "README.md"
+					},
+					{
+						"Title": "Quickstart",
+						"Path": "quickstart.md"
+					},
+					{
+						"Title": "Architecture",
+						"Path": "architecture.md"
 					}
 				]
 			},
@@ -41,6 +49,14 @@
 						"Path": "https://fable-retold.github.io/meadow-connection-manager/README.md"
 					},
 					{
+						"Title": "pict-provider",
+						"Path": "https://fable-retold.github.io/pict-provider/README.md"
+					},
+					{
+						"Title": "pict-view",
+						"Path": "https://fable-retold.github.io/pict-view/README.md"
+					},
+					{
 						"Title": "pict-section-modal",
 						"Path": "https://fable-retold.github.io/pict-section-modal/README.md"
 					},
@@ -57,14 +73,17 @@
 		],
 		"DocFiles": [
 			".nojekyll",
+			"README.md",
 			"_brand.json",
 			"_cover.md",
 			"_sidebar.md",
 			"_version.json",
+			"architecture.md",
 			"examples/README.md",
 			"examples/bookstore-connections/README.md",
 			"examples/bookstore-connections/index.html",
 			"index.html",
+			"quickstart.md",
 			"retold-catalog.json",
 			"retold-keyword-index.json"
 		]
