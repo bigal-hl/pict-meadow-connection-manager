@@ -2,10 +2,10 @@
 
 `pict-meadow-connection-manager` is three Pict pieces plus a re-export:
 
-- **`PictProviderConnectionManager`** — the state hub (CRUD + schemas + testing).
-- **`PictViewConnectionList`** — the saved-connection list.
-- **`PictViewConnectionDetail`** — the single-connection editor that exposes the form slot.
-- **`PictSectionConnectionForm`** — a convenience re-export of `pict-section-connection-form`.
+- **`PictProviderConnectionManager`** - the state hub (CRUD + schemas + testing).
+- **`PictViewConnectionList`** - the saved-connection list.
+- **`PictViewConnectionDetail`** - the single-connection editor that exposes the form slot.
+- **`PictSectionConnectionForm`** - a convenience re-export of `pict-section-connection-form`.
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -22,7 +22,7 @@
 
 The provider is the single source of truth. Both views read and write its
 state through `pict.AppData`, and the provider hands the schema list to the
-form view. Everything is browser-only — there is no server code in this module.
+form view. Everything is browser-only - there is no server code in this module.
 
 ## The provider
 
@@ -64,11 +64,11 @@ AppData.MCM =
 };
 ```
 
-- **`Connections`** — the persisted list. Hydrated at `onInitialize` from `fable.settings.MeadowConnections` (a deep copy) when that array is present.
-- **`SelectedIndex`** — which row is being edited, or `-1` when the editor holds an unsaved draft.
-- **`CurrentConnection`** — the active draft. `selectConnection()` deep-copies the chosen row into it, so edits do not mutate the saved list until Save.
-- **`ConnectionTypes`** — `{ TypeName, DisplayName }` entries built from the schemas; this is the source for the detail view's Type `<select>`.
-- **`Schemas`** — the full schema list; the form view reads its field definitions from this address.
+- **`Connections`** - the persisted list. Hydrated at `onInitialize` from `fable.settings.MeadowConnections` (a deep copy) when that array is present.
+- **`SelectedIndex`** - which row is being edited, or `-1` when the editor holds an unsaved draft.
+- **`CurrentConnection`** - the active draft. `selectConnection()` deep-copies the chosen row into it, so edits do not mutate the saved list until Save.
+- **`ConnectionTypes`** - `{ TypeName, DisplayName }` entries built from the schemas; this is the source for the detail view's Type `<select>`.
+- **`Schemas`** - the full schema list; the form view reads its field definitions from this address.
 
 ### Schema injection
 
@@ -91,9 +91,9 @@ setSchemas(pSchemas)
 Schema lookups:
 
 ```javascript
-getSchemas()                  // → object[]  the full list
-getSchema(pTypeName)          // → object|null  matched by Provider
-getAvailableTypes()           // → string[]  the Provider id of every schema
+getSchemas()                  // -> object[]  the full list
+getSchema(pTypeName)          // -> object|null  matched by Provider
+getAvailableTypes()           // -> string[]  the Provider id of every schema
 ```
 
 ### Schema-driven helpers
@@ -105,7 +105,7 @@ more dotted config paths), the same field contract
 uses.
 
 ```javascript
-buildDefaultConfig(pTypeName)        // → object
+buildDefaultConfig(pTypeName)        // -> object
 ```
 
 Walks the schema's fields and builds a config blob from each field's `Default`.
@@ -115,7 +115,7 @@ omitted. Values are written to each path in `MapTo` (or to `Name` when `MapTo`
 is absent).
 
 ```javascript
-validateConfig(pTypeName, pConfig)   // → { valid: boolean, errors: string[] }
+validateConfig(pTypeName, pConfig)   // -> { valid: boolean, errors: string[] }
 ```
 
 Currently checks only `Required: true` fields. For each required field it reads
@@ -124,7 +124,7 @@ Currently checks only `Required: true` fields. For each required field it reads
 `{ valid: false, errors: [ 'Unknown connection type: <type>' ] }`.
 
 ```javascript
-maskConfig(pTypeName, pConfig)       // → object
+maskConfig(pTypeName, pConfig)       // -> object
 ```
 
 Returns a deep copy with every `Type: 'Password'` field's non-empty value
@@ -133,16 +133,16 @@ listing a config.
 
 > These helpers replaced an earlier inline `ConnectionTypeRegistry`. The
 > deprecated registry and the per-type config view subclasses are **not**
-> exported — the test suite asserts they are `undefined` so hosts that still
+> exported - the test suite asserts they are `undefined` so hosts that still
 > reference them fail loudly.
 
 ### CRUD and selection
 
 ```javascript
-getConnections()             // → the Connections array
-getConnection(pIndex)        // → a connection, or null when out of range
+getConnections()             // -> the Connections array
+getConnection(pIndex)        // -> a connection, or null when out of range
 
-addConnection(pConnection)   // append (or a defaulted draft) then select; → new index
+addConnection(pConnection)   // append (or a defaulted draft) then select; -> new index
 updateConnection(pIndex, pConnection)   // replace a row in place
 removeConnection(pIndex)     // splice, then fix up SelectedIndex
 
@@ -206,7 +206,7 @@ so it reads `Connections` directly.
 - `onBeforeRender()` stamps each connection's array index onto the record as `Index` so the row buttons can reference it.
 - `onAfterRender()` injects the view's CSS and calls `super`.
 
-The view's CSS is theme-token driven (`var(--theme-color-*, …)` with hardcoded
+The view's CSS is theme-token driven (`var(--theme-color-*, ...)` with hardcoded
 fallbacks) and is registered automatically by the `pict-view` base class.
 
 ## The detail view
@@ -214,7 +214,7 @@ fallbacks) and is registered automatically by the `pict-view` base class.
 `PictViewConnectionDetail` (`ViewIdentifier: 'MCM-ConnectionDetail'`, default
 destination `#MCM-ConnectionDetail-Container`) edits one connection. Its
 template record address is `AppData.MCM.CurrentConnection`. It carries
-`AutoRender: false` — the provider renders it on demand via `refreshDetailView()`.
+`AutoRender: false` - the provider renders it on demand via `refreshDetailView()`.
 
 The container template renders:
 
@@ -239,21 +239,21 @@ The handoff happens in `onAfterRender()`:
 4. Call `tmpFormView.setSchemas(provider.getSchemas())` so the form has the current schema list.
 5. Call `tmpFormView.setValues(activeType, CurrentConnection.Config)` so the form shows the saved values.
 
-This is belt-and-suspenders with the provider's own `setSchemas()` handoff — the
+This is belt-and-suspenders with the provider's own `setSchemas()` handoff - the
 detail view re-pushes schemas each time it renders, so ordering between
 provider injection and detail rendering does not matter.
 
 ### Action handlers
 
-- **`onNameChange(pNewName)`** — writes `CurrentConnection.Name` directly.
-- **`onTypeChange(pNewType)`** — sets `CurrentConnection.Type`, reseeds `CurrentConnection.Config` from `provider.buildDefaultConfig(pNewType)` (so old values from the previous type cannot leak), then calls the form view's `setActiveProvider(pNewType)` and re-applies the fresh defaults via `setValues(...)`.
-- **`onSave()`** — pulls live form values via `formView.getProviderConfig()` into `CurrentConnection`, runs `provider.validateConfig(...)`, logs a warning and returns on failure, otherwise calls `provider.saveCurrentConnection()`.
-- **`onTest()`** — collects form values the same way, then calls `provider.testConnection(...)` and sets `Status` to `OK` / `Failed` / `Error` based on the result before re-rendering.
-- **`onCancel()`** — calls `provider.deselectConnection()`.
+- **`onNameChange(pNewName)`** - writes `CurrentConnection.Name` directly.
+- **`onTypeChange(pNewType)`** - sets `CurrentConnection.Type`, reseeds `CurrentConnection.Config` from `provider.buildDefaultConfig(pNewType)` (so old values from the previous type cannot leak), then calls the form view's `setActiveProvider(pNewType)` and re-applies the fresh defaults via `setValues(...)`.
+- **`onSave()`** - pulls live form values via `formView.getProviderConfig()` into `CurrentConnection`, runs `provider.validateConfig(...)`, logs a warning and returns on failure, otherwise calls `provider.saveCurrentConnection()`.
+- **`onTest()`** - collects form values the same way, then calls `provider.testConnection(...)` and sets `Status` to `OK` / `Failed` / `Error` based on the result before re-rendering.
+- **`onCancel()`** - calls `provider.deselectConnection()`.
 
 ### Why the form view, not inline fields
 
-The per-provider field definitions live in exactly one place — the
+The per-provider field definitions live in exactly one place - the
 `Meadow-Connection-<Type>-FormSchema.js` file each `meadow-connection-*` module
 exports. The server-side
 [`meadow-connection-manager`](https://fable-retold.github.io/meadow-connection-manager/)
@@ -290,8 +290,8 @@ user edits + Save ──► detail.onSave()
 
 ## Related Modules
 
-- [pict](https://fable-retold.github.io/pict/) — the MVC framework this module is built on.
-- [pict-provider](https://fable-retold.github.io/pict-provider/) — base class for `PictProviderConnectionManager`.
-- [pict-view](https://fable-retold.github.io/pict-view/) — base class for the list and detail views.
-- [pict-section-connection-form](https://fable-retold.github.io/pict-section-connection-form/) — the schema-driven form view this module delegates field rendering to.
-- [meadow-connection-manager](https://fable-retold.github.io/meadow-connection-manager/) — the server-side counterpart that aggregates the provider form schemas.
+- [pict](https://fable-retold.github.io/pict/) - the MVC framework this module is built on.
+- [pict-provider](https://fable-retold.github.io/pict-provider/) - base class for `PictProviderConnectionManager`.
+- [pict-view](https://fable-retold.github.io/pict-view/) - base class for the list and detail views.
+- [pict-section-connection-form](https://fable-retold.github.io/pict-section-connection-form/) - the schema-driven form view this module delegates field rendering to.
+- [meadow-connection-manager](https://fable-retold.github.io/meadow-connection-manager/) - the server-side counterpart that aggregates the provider form schemas.

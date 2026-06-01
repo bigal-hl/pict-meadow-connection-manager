@@ -16,7 +16,7 @@ whole stack.
 
 ## 2. Register the provider
 
-The provider is a **singleton** — the list view, the detail view, and the form
+The provider is a **singleton** - the list view, the detail view, and the form
 view all read the same state, so a fresh instance per view would mean three
 independent drafts.
 
@@ -55,7 +55,7 @@ this.pict.addView('MCM-ConnectionDetail',
 
 Both views ship their own CSS (theme-token driven) and self-register it. Their
 default destinations are `#MCM-ConnectionList-Container` and
-`#MCM-ConnectionDetail-Container` — your layout must expose both elements.
+`#MCM-ConnectionDetail-Container` - your layout must expose both elements.
 
 ## 4. Register the shared form view into the detail slot
 
@@ -77,11 +77,11 @@ this.pict.addView('PictSection-ConnectionForm',
 
 The overrides:
 
-- **`ContainerSelector` / `DefaultDestinationAddress`** — the slot the detail view exposes.
-- **`SchemasAddress: 'AppData.MCM.Schemas'`** — the same address the provider writes to in `setSchemas()`.
-- **`ActiveAddress: 'AppData.MCM.CurrentConnection.Type'`** — the field the detail view's Type `<select>` writes to, so the form swaps provider blocks when the user picks a different type.
-- **`FieldIDPrefix: 'mcm-conn'`** — each input's DOM id becomes `mcm-conn-<provider>-<field>`, so multiple connection forms can coexist on one page.
-- **`ShowProviderSelect: false`** — the detail view already renders the Type select, so the form hides its own.
+- **`ContainerSelector` / `DefaultDestinationAddress`** - the slot the detail view exposes.
+- **`SchemasAddress: 'AppData.MCM.Schemas'`** - the same address the provider writes to in `setSchemas()`.
+- **`ActiveAddress: 'AppData.MCM.CurrentConnection.Type'`** - the field the detail view's Type `<select>` writes to, so the form swaps provider blocks when the user picks a different type.
+- **`FieldIDPrefix: 'mcm-conn'`** - each input's DOM id becomes `mcm-conn-<provider>-<field>`, so multiple connection forms can coexist on one page.
+- **`ShowProviderSelect: false`** - the detail view already renders the Type select, so the form hides its own.
 
 If you use a non-default provider `AppDataAddress`, point `SchemasAddress` and
 `ActiveAddress` at the matching prefix. See
@@ -90,7 +90,7 @@ for the full list of form-view options.
 
 ## 5. Lay out the slots
 
-The views render into plain elements. Place them however your layout dictates —
+The views render into plain elements. Place them however your layout dictates -
 the only contract is the element ids:
 
 ```html
@@ -103,9 +103,9 @@ template, so you do not place it yourself.
 
 ## 6. Inject schemas
 
-This module never fetches schemas. Your application fetches them — typically
+This module never fetches schemas. Your application fetches them - typically
 from a server endpoint backed by
-`meadow-connection-manager.getAllProviderFormSchemas()` — and hands the array
+`meadow-connection-manager.getAllProviderFormSchemas()` - and hands the array
 to the provider:
 
 ```javascript
@@ -173,7 +173,7 @@ from the configuration JSON's `pict_configuration.MeadowConnections`:
 }
 ```
 
-Each entry is a `{ Name, Type, Config, Status }` record — the same shape the
+Each entry is a `{ Name, Type, Config, Status }` record - the same shape the
 provider stores in `AppData.<addr>.Connections`. To load connections from a
 server instead, call `provider.setConnections(pArray)`.
 
@@ -199,12 +199,12 @@ the manager does not persist for you.
 With the provider and three views registered and a schema list injected, the
 following workflow is wired with no further code:
 
-- **Add Connection** — appends a new draft (defaulted from the first schema) and opens the editor.
-- **Edit** — loads a saved connection into the editor; the form block populates from the saved config.
-- **Type select** — switches the active provider; the form block swaps and reseeds to the new type's defaults.
-- **Save** — pulls the live form values, validates required fields, and writes back into the saved list.
-- **Test Connection** — POSTs `{ Type, Config }` to `TestConnectionEndpoint` and updates the status badge.
-- **Remove** — deletes a connection and fixes up the selection.
+- **Add Connection** - appends a new draft (defaulted from the first schema) and opens the editor.
+- **Edit** - loads a saved connection into the editor; the form block populates from the saved config.
+- **Type select** - switches the active provider; the form block swaps and reseeds to the new type's defaults.
+- **Save** - pulls the live form values, validates required fields, and writes back into the saved list.
+- **Test Connection** - POSTs `{ Type, Config }` to `TestConnectionEndpoint` and updates the status badge.
+- **Remove** - deletes a connection and fixes up the selection.
 
 See [Architecture](architecture.md) for the full provider API and the
 view-to-provider wiring.

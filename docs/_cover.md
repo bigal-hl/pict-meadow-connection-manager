@@ -13,5 +13,5 @@
 <!-- docuserve:examples:start -->
 | Example | Complexity | Launch |
 |---------|------------|--------|
-| [Bookstore Connections](examples/bookstore-connections/README.md) | Intermediate | [&#9654; Launch](examples/bookstore-connections/index.html) |
+| [Bookstore Connections](examples/bookstore-connections/README.md) | Intermediate | [Launch](examples/bookstore-connections/index.html) |
 <!-- docuserve:examples:end -->
