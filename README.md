@@ -1,16 +1,18 @@
 # pict-meadow-connection-manager
 
+> **[Read the pict-meadow-connection-manager Documentation](https://fable-retold.github.io/pict-meadow-connection-manager/)**
+
 Browser-safe Pict provider plus list/detail views for managing **named**
 meadow database connections. This module owns the *manager-shell* concerns -
 a list of saved connections, a detail editor (Name + Type + Status + Save /
 Test / Cancel), and a Pict provider for state and CRUD.
 
 Per-provider field rendering is **not** in this module. It is delegated to
-[`pict-section-connection-form`](https://fable-retold.github.io/pict-section-connection-form/),
+[`pict-section-connection-form`](https://github.com/fable-retold/pict-section-connection-form),
 which renders the field block for whichever provider type is active. The
 per-provider field schemas come from that one canonical source - the
 `meadow-connection-*` modules export them and the server-side
-[`meadow-connection-manager`](https://fable-retold.github.io/meadow-connection-manager/)
+[`meadow-connection-manager`](https://github.com/fable-retold/meadow-connection-manager)
 aggregates them via `getAllProviderFormSchemas()`.
 
 ```
@@ -125,11 +127,11 @@ test workflow.
 
 ## Related Modules
 
-- [pict](https://fable-retold.github.io/pict/) - the MVC framework this module is built on.
-- [pict-provider](https://fable-retold.github.io/pict-provider/) - base class for `PictProviderConnectionManager`.
-- [pict-view](https://fable-retold.github.io/pict-view/) - base class for the list and detail views.
-- [pict-section-connection-form](https://fable-retold.github.io/pict-section-connection-form/) - the schema-driven form view this module delegates field rendering to.
-- [meadow-connection-manager](https://fable-retold.github.io/meadow-connection-manager/) - the server-side counterpart that aggregates the provider form schemas.
+- [pict](https://github.com/fable-retold/pict) - the MVC framework this module is built on.
+- [pict-provider](https://github.com/fable-retold/pict-provider) - base class for `PictProviderConnectionManager`.
+- [pict-view](https://github.com/fable-retold/pict-view) - base class for the list and detail views.
+- [pict-section-connection-form](https://github.com/fable-retold/pict-section-connection-form) - the schema-driven form view this module delegates field rendering to.
+- [meadow-connection-manager](https://github.com/fable-retold/meadow-connection-manager) - the server-side counterpart that aggregates the provider form schemas.
 
 ## Running the tests
 
