@@ -28,18 +28,8 @@ a single `require()`.
 
 ## How it fits together
 
-```
-┌────────────────────────────────────────────────────────────┐
-│  pict-meadow-connection-manager                              │
-│   ├─ PictProviderConnectionManager   state + CRUD + tests    │
-│   ├─ PictViewConnectionList          list of saved conns     │
-│   └─ PictViewConnectionDetail        editor (name + slot)    │
-│                                              │               │
-│                                              ▼ slot          │
-│                              pict-section-connection-form    │
-│                                schema-driven form            │
-└────────────────────────────────────────────────────────────┘
-```
+<!-- bespoke diagram: edit diagrams/how-it-fits-together.mmd or .hints.json, then: npx pict-renderer-graph build modules/pict/pict-meadow-connection-manager/docs -->
+![How it fits together](diagrams/how-it-fits-together.svg)
 
 The provider is the hub. Both views read and write its state through
 `pict.AppData`, and the provider propagates the schema list into the form view

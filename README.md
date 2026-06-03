@@ -15,18 +15,8 @@ per-provider field schemas come from that one canonical source - the
 [`meadow-connection-manager`](https://github.com/fable-retold/meadow-connection-manager)
 aggregates them via `getAllProviderFormSchemas()`.
 
-```
-┌────────────────────────────────────────────────────────────┐
-│  pict-meadow-connection-manager                              │
-│   ├─ PictProviderConnectionManager   state + CRUD + tests    │
-│   ├─ PictViewConnectionList          list of saved conns     │
-│   └─ PictViewConnectionDetail        editor (name + slot)    │
-│                                              │               │
-│                                              ▼ slot          │
-│                              pict-section-connection-form    │
-│                                schema-driven form            │
-└────────────────────────────────────────────────────────────┘
-```
+<!-- bespoke diagram: edit diagrams/pict-meadow-connection-manager.mmd or .hints.json, then: npx pict-renderer-graph build modules/pict/pict-meadow-connection-manager -->
+![pict-meadow-connection-manager](diagrams/pict-meadow-connection-manager.svg)
 
 This module is **browser-only**. It has no knowledge of the
 `meadow-connection-*` modules and does not fetch schemas itself. The host

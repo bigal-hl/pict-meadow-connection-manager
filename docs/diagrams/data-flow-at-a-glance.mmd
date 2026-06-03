@@ -1,0 +1,19 @@
+graph TD
+    HostFetch["host fetch"] --> SetSchemas["provider.setSchemas(schemas)"]
+    SetSchemas --> MCMSchemas["AppData.MCM.Schemas"]
+    SetSchemas --> MCMTypes["AppData.MCM.ConnectionTypes"]
+    SetSchemas --> RefreshViews["refreshViews()"]
+    MCMSchemas --> FormDefs["form view field definitions"]
+    MCMTypes --> SelectOptions["detail view &lt;select&gt; options"]
+
+    ClickEdit["user clicks Edit"] --> SelectConn["provider.selectConnection(i)"]
+    SelectConn --> CurrentConn["CurrentConnection (deep copy)"]
+    CurrentConn --> DetailRender["detail.render()"]
+    DetailRender --> OnAfterRender["onAfterRender: form.setSchemas + form.setValues"]
+
+    EditSave["user edits + Save"] --> OnSave["detail.onSave()"]
+    OnSave --> GetConfig["form.getProviderConfig()"]
+    GetConfig --> CurrentConnConfig["CurrentConnection.Config"]
+    OnSave --> ValidateConfig["provider.validateConfig()"]
+    OnSave --> SaveCurrent["provider.saveCurrentConnection()"]
+    SaveCurrent --> ConnectionsI["Connections[i]"]

@@ -1,0 +1,7 @@
+graph TD
+    subgraph MCM["pict-meadow-connection-manager"]
+        Provider["PictProviderConnectionManager<br/>state + CRUD + tests"]
+        ListView["PictViewConnectionList<br/>list of saved conns"]
+        DetailView["PictViewConnectionDetail<br/>editor (name + slot)"]
+    end
+    DetailView -->|slot| FormView["pict-section-connection-form<br/>schema-driven form"]

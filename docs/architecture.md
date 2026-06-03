@@ -7,18 +7,8 @@
 - **`PictViewConnectionDetail`** - the single-connection editor that exposes the form slot.
 - **`PictSectionConnectionForm`** - a convenience re-export of `pict-section-connection-form`.
 
-```
-┌────────────────────────────────────────────────────────────┐
-│  pict-meadow-connection-manager                              │
-│   ├─ PictProviderConnectionManager   state + CRUD + tests    │
-│   ├─ PictViewConnectionList          list of saved conns     │
-│   └─ PictViewConnectionDetail        editor (name + slot)    │
-│                                              │               │
-│                                              ▼ slot          │
-│                              pict-section-connection-form    │
-│                                schema-driven form            │
-└────────────────────────────────────────────────────────────┘
-```
+<!-- bespoke diagram: edit diagrams/architecture.mmd or .hints.json, then: npx pict-renderer-graph build modules/pict/pict-meadow-connection-manager/docs -->
+![Architecture](diagrams/architecture.svg)
 
 The provider is the single source of truth. Both views read and write its
 state through `pict.AppData`, and the provider hands the schema list to the
@@ -271,22 +261,8 @@ collected values agree.
 
 ## Data flow at a glance
 
-```
-host fetch ──► provider.setSchemas(schemas)
-                    │
-                    ├─► AppData.MCM.Schemas        ──► form view field definitions
-                    ├─► AppData.MCM.ConnectionTypes ──► detail view <select> options
-                    └─► refreshViews()
-
-user clicks Edit ──► provider.selectConnection(i)
-                    └─► CurrentConnection (deep copy) ──► detail.render()
-                            └─► onAfterRender: form.setSchemas + form.setValues
-
-user edits + Save ──► detail.onSave()
-                    ├─► form.getProviderConfig() ──► CurrentConnection.Config
-                    ├─► provider.validateConfig()
-                    └─► provider.saveCurrentConnection() ──► Connections[i]
-```
+<!-- bespoke diagram: edit diagrams/data-flow-at-a-glance.mmd or .hints.json, then: npx pict-renderer-graph build modules/pict/pict-meadow-connection-manager/docs -->
+![Data flow at a glance](diagrams/data-flow-at-a-glance.svg)
 
 ## Related Modules
 
